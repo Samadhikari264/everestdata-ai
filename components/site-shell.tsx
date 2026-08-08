@@ -34,10 +34,10 @@ export function SiteShell({ children }: { children: ReactNode }) {
 
           <div className="flex items-center gap-2 sm:gap-3">
             <Link
-              href="/agenttrace"
+              href="/contact?inquiry=agenttrace-demo"
               className="hidden rounded-full border border-[var(--line)] bg-white/70 px-3.5 py-2 text-xs font-medium text-[var(--text)] transition duration-200 hover:border-[var(--gold)] hover:text-[var(--gold)] sm:inline-flex sm:text-sm"
             >
-              Explore AgentTrace
+              Request AgentTrace Demo
             </Link>
             <Link
               href="/contact"

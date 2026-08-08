@@ -47,10 +47,10 @@ export default function HomePage() {
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Link
-                  href="/agenttrace"
+                  href="/contact?inquiry=agenttrace-demo"
                   className="inline-flex items-center gap-2 rounded-full bg-[var(--brand)] px-5 py-3 text-sm font-medium text-white transition duration-200 hover:bg-[var(--brand-deep)]"
                 >
-                  Explore AgentTrace
+                  Request AgentTrace Demo
                   <ArrowRight className="h-4 w-4" />
                 </Link>
                 <Link
@@ -238,8 +238,8 @@ export default function HomePage() {
               </h3>
             </div>
             <div className="flex flex-wrap gap-4 lg:justify-end">
-              <Link href="/agenttrace" className="inline-flex items-center gap-2 rounded-full bg-[var(--gold)] px-5 py-3 text-sm font-medium text-[var(--navy)] transition duration-200 hover:brightness-110">
-                Explore AgentTrace
+              <Link href="/contact?inquiry=agenttrace-demo" className="inline-flex items-center gap-2 rounded-full bg-[var(--gold)] px-5 py-3 text-sm font-medium text-[var(--navy)] transition duration-200 hover:brightness-110">
+                Request AgentTrace Demo
                 <ArrowRight className="h-4 w-4" />
               </Link>
               <Link href="/data-ai" className="inline-flex items-center gap-2 rounded-full border border-white/15 px-5 py-3 text-sm font-medium text-white transition duration-200 hover:border-[var(--gold)] hover:text-[var(--gold)]">

@@ -58,7 +58,7 @@ export default function SecurityPage() {
                   Explore AgentTrace
                   <ArrowRight className="h-4 w-4" />
                 </Link>
-                <Link href="/contact" className="inline-flex items-center gap-2 rounded-full border border-[var(--line)] px-5 py-3 text-sm font-medium text-[var(--text)] transition hover:border-[var(--gold)] hover:text-[var(--gold)]">
+                <Link href="/contact?inquiry=security" className="inline-flex items-center gap-2 rounded-full border border-[var(--line)] px-5 py-3 text-sm font-medium text-[var(--text)] transition hover:border-[var(--gold)] hover:text-[var(--gold)]">
                   Talk to a Security Architect
                 </Link>
               </div>
@@ -298,7 +298,7 @@ export default function SecurityPage() {
             <h2 className="text-3xl font-semibold tracking-tight text-[var(--text)]">Build a security data plane ready for autonomous systems.</h2>
           </div>
           <div className="flex flex-wrap gap-3">
-            <Link href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full bg-[var(--brand)] px-5 py-3 text-sm font-medium text-white transition hover:bg-[var(--brand-deep)]">
+            <Link href="/contact?inquiry=security" className="inline-flex items-center justify-center gap-2 rounded-full bg-[var(--brand)] px-5 py-3 text-sm font-medium text-white transition hover:bg-[var(--brand-deep)]">
               Talk to a Security Architect
               <ArrowRight className="h-4 w-4" />
             </Link>
