@@ -3,16 +3,6 @@
 import { motion } from "framer-motion";
 import { ArrowRightLeft, ShieldCheck, Waypoints } from "lucide-react";
 
-const identityNodes = [
-  "Cloud Identity",
-  "OAuth",
-  "MCP",
-  "Service Account",
-  "Workload Identity",
-  "Delegated Agent",
-  "Data Principal",
-] as const;
-
 const identityBreakdown = {
   human: ["User", "SSO", "Cloud Identity", "Application", "Data"],
   agent: ["Agent", "Cloud Role", "Token", "MCP", "Delegated Agent", "SaaS Identity", "Database Principal", "Tools"],
