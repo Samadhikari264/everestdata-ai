@@ -38,7 +38,7 @@ export default function DataAIPage() {
                 We help organizations modernize their data platforms so AI can scale with governance, trust, and operational control.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
-                <Link href="/contact" className="inline-flex items-center gap-2 rounded-full bg-[var(--brand)] px-5 py-3 text-sm font-medium text-white transition hover:bg-[var(--brand-deep)]">
+                <Link href="/contact?inquiry=data-ai" className="inline-flex items-center gap-2 rounded-full bg-[var(--brand)] px-5 py-3 text-sm font-medium text-white transition hover:bg-[var(--brand-deep)]">
                   Speak with Everest
                   <ArrowRight className="h-4 w-4" />
                 </Link>
@@ -217,7 +217,7 @@ export default function DataAIPage() {
               <p className="mb-3 text-xs font-semibold uppercase tracking-[0.22em] text-[var(--gold)]">Ready to build</p>
               <h2 className="text-3xl font-semibold tracking-tight text-[var(--text)]">Bring structure to your data estate and momentum to your AI roadmap.</h2>
             </div>
-            <Link href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full bg-[var(--brand)] px-5 py-3 text-sm font-medium text-white transition hover:bg-[var(--brand-deep)]">
+            <Link href="/contact?inquiry=data-ai" className="inline-flex items-center justify-center gap-2 rounded-full bg-[var(--brand)] px-5 py-3 text-sm font-medium text-white transition hover:bg-[var(--brand-deep)]">
               Start the conversation
               <ArrowRight className="h-4 w-4" />
             </Link>

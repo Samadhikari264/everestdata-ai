@@ -40,7 +40,7 @@ export default function CompanyPage() {
                 Everest Data builds the governed data foundations and runtime security systems needed for autonomous enterprise systems.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
-                <Link href="/contact" className="inline-flex items-center gap-2 rounded-full bg-[var(--brand)] px-5 py-3 text-sm font-medium text-white transition hover:bg-[var(--brand-deep)]">
+                <Link href="/contact?inquiry=strategic" className="inline-flex items-center gap-2 rounded-full bg-[var(--brand)] px-5 py-3 text-sm font-medium text-white transition hover:bg-[var(--brand-deep)]">
                   Talk to Everest Data
                   <ArrowRight className="h-4 w-4" />
                 </Link>
@@ -240,7 +240,7 @@ export default function CompanyPage() {
             <h2 className="text-3xl font-semibold tracking-tight text-[var(--text)]">Build the infrastructure for what comes next.</h2>
           </div>
           <div className="flex flex-wrap gap-3">
-            <Link href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full bg-[var(--brand)] px-5 py-3 text-sm font-medium text-white transition hover:bg-[var(--brand-deep)]">
+            <Link href="/contact?inquiry=strategic" className="inline-flex items-center justify-center gap-2 rounded-full bg-[var(--brand)] px-5 py-3 text-sm font-medium text-white transition hover:bg-[var(--brand-deep)]">
               Talk to Everest Data
               <ArrowRight className="h-4 w-4" />
             </Link>

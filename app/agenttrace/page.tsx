@@ -176,7 +176,7 @@ export default function AgentTracePage() {
                 Run the AgentTrace Demo
                 <ArrowRight className="h-4 w-4" />
               </Link>
-              <Link href="/contact" className="inline-flex items-center gap-2 rounded-full border border-white/15 px-5 py-3 text-sm font-medium text-white transition hover:border-[var(--gold)] hover:text-[var(--gold)]">
+              <Link href="/contact?inquiry=design-partner" className="inline-flex items-center gap-2 rounded-full border border-white/15 px-5 py-3 text-sm font-medium text-white transition hover:border-[var(--gold)] hover:text-[var(--gold)]">
                 Become a Design Partner
               </Link>
             </div>

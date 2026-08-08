@@ -179,16 +179,17 @@ export function CompanyStrategyVisual() {
 
 export function CompanyTechMapVisual() {
   const prefersReducedMotion = useReducedMotion();
+  const techMap: Array<{ title: string; items: string[] }> = [
+    { title: "Data platform", items: ["Databricks", "Delta", "Lakeflow", "Streaming", "APIs"] },
+    { title: "Governance", items: ["Unity Catalog", "Lineage", "Data Quality", "Access Control"] },
+    { title: "AI", items: ["GenAI", "Agents", "RAG", "Model / Agent Telemetry"] },
+    { title: "Security", items: ["Lakewatch", "OCSF", "Detection-as-Code", "Runtime Identity", "AgentTrace"] },
+  ];
 
   return (
     <div className="rounded-[32px] border border-[var(--line)] bg-[linear-gradient(135deg,#f8fbff_0%,#eef6fb_100%)] p-4 sm:p-5">
       <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
-        {[
-          ["Data platform", ["Databricks", "Delta", "Lakeflow", "Streaming", "APIs"]],
-          ["Governance", ["Unity Catalog", "Lineage", "Data Quality", "Access Control"]],
-          ["AI", ["GenAI", "Agents", "RAG", "Model / Agent Telemetry"]],
-          ["Security", ["Lakewatch", "OCSF", "Detection-as-Code", "Runtime Identity", "AgentTrace"]],
-        ].map(([title, items], index) => (
+        {techMap.map(({ title, items }, index) => (
           <motion.div
             key={title}
             initial={prefersReducedMotion ? false : { opacity: 0, y: 8 }}
