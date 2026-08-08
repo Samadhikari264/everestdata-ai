@@ -1,5 +1,11 @@
+import type { Metadata } from "next";
 import { SiteShell } from "../../components/site-shell";
 import { DemoExperience } from "../../components/demo-experience";
+
+export const metadata: Metadata = {
+  title: "AgentTrace Demo | Everest Data",
+  alternates: { canonical: "/demo" },
+};
 
 export default function DemoPage() {
   return (

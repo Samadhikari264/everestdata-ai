@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import {
@@ -13,6 +14,11 @@ import {
   SignalPath,
 } from "../../components/agenttrace-visuals";
 import { SiteShell } from "../../components/site-shell";
+
+export const metadata: Metadata = {
+  title: "AgentTrace | Runtime Identity Security for AI Agents",
+  alternates: { canonical: "/agenttrace" },
+};
 
 export default function AgentTracePage() {
   return (

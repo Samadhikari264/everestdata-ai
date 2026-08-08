@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Compass, Layers3, LockKeyhole, ShieldCheck, Sparkles } from "lucide-react";
 import { SiteShell } from "../../components/site-shell";
@@ -9,6 +10,11 @@ import {
   CompanyTechMapVisual,
   CompanyVerticalsVisual,
 } from "../../components/company-visuals";
+
+export const metadata: Metadata = {
+  title: "Company | Everest Data",
+  alternates: { canonical: "/company" },
+};
 
 const principles = [
   { icon: Compass, title: "Data before AI", text: "AI quality depends on the quality, governance, and context of enterprise data." },

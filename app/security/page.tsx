@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, DatabaseZap, ShieldAlert } from "lucide-react";
 import { SiteShell } from "../../components/site-shell";
@@ -10,6 +11,11 @@ import {
   SecurityPlatformVisual,
   SecurityProblemVisual,
 } from "../../components/security-visuals";
+
+export const metadata: Metadata = {
+  title: "Everest Security | Security Data, Lakewatch & Agent Security",
+  alternates: { canonical: "/security" },
+};
 
 const lakewatchCaps = [
   "Security telemetry onboarding",

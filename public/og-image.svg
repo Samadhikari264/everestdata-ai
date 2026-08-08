@@ -1,0 +1,13 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="36" fill="#071E33"/>
+  <rect x="48" y="48" width="1104" height="534" rx="28" fill="#0C2948"/>
+  <path d="M320 190V440H430V385H372V315H446V260H372V245H430V190H320Z" stroke="#F4E8D0" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M430 190H530C610 190 672 242 672 315C672 388 610 440 530 440H430V190Z" stroke="#D2A261" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M440 190V440" stroke="#D2A261" stroke-width="24" stroke-linecap="round"/>
+  <rect x="724" y="214" width="300" height="188" rx="24" fill="#F7F2EA"/>
+  <path d="M772 286H882" stroke="#1D6EA8" stroke-width="16" stroke-linecap="round"/>
+  <path d="M772 330H858" stroke="#D2A261" stroke-width="16" stroke-linecap="round"/>
+  <path d="M772 374H838" stroke="#071E33" stroke-width="16" stroke-linecap="round"/>
+  <text x="88" y="520" fill="#EDF3F8" font-family="Arial, sans-serif" font-size="44" font-weight="700">Everest Data</text>
+  <text x="88" y="562" fill="#D2A261" font-family="Arial, sans-serif" font-size="24">Data, AI, and runtime security for the agentic enterprise</text>
+</svg>

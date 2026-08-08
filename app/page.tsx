@@ -36,14 +36,14 @@ export default function HomePage() {
           <div className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
             <div>
               <p className="mb-5 text-xs font-semibold uppercase tracking-[0.22em] text-[var(--gold)]">
-                Enterprise Data, AI and Runtime Security
+                Everest Data & AI | Everest Security
               </p>
               <h1 className="max-w-3xl text-4xl font-semibold tracking-[-0.06em] text-[var(--text)] sm:text-5xl lg:text-7xl">
-                Build the data foundation.<br />
+                Build the governed foundation.<br />
                 Secure the autonomous enterprise.
               </h1>
               <p className="mt-6 max-w-xl text-lg leading-8 text-[var(--muted)]">
-                Enterprise Data, AI and Runtime Security for the Agentic Era.
+                Everest Data builds the governed data and AI platform foundation. Everest Security operationalizes telemetry, identity, and agent runtime security for the agentic enterprise.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Link
