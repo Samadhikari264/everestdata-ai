@@ -1,7 +1,13 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Suspense } from "react";
 import { SiteShell } from "../../components/site-shell";
 import { ContactForm } from "../../components/contact-form";
+
+export const metadata: Metadata = {
+  title: "Contact | Everest Data",
+  alternates: { canonical: "/contact" },
+};
 
 export default function ContactPage() {
   return (

@@ -42,6 +42,7 @@ body {
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
   text-rendering: optimizeLegibility;
   letter-spacing: -0.02em;
+  line-height: 1.65;
 }
 
 * {
@@ -70,6 +71,87 @@ h2,
 h3,
 h4 {
   margin: 0;
+}
+
+button,
+a {
+  transition: color 180ms ease, background-color 180ms ease, border-color 180ms ease, transform 180ms ease;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--panel), 0 0 0 4px var(--gold);
+  border-radius: 999px;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.section-title {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: var(--text);
+}
+
+.section-copy {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: var(--muted);
+}
+
+.button-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 999px;
+  background: var(--brand);
+  color: white;
+  padding: 0.9rem 1.35rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: background-color 180ms ease, transform 180ms ease;
+}
+
+.button-primary:hover {
+  background: var(--brand-deep);
+}
+
+.button-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--text);
+  padding: 0.9rem 1.35rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.button-secondary:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.surface-card {
+  border: 1px solid var(--line);
+  border-radius: 1.75rem;
+  background: var(--panel);
+  box-shadow: 0 18px 40px rgba(7, 30, 51, 0.05);
 }
 
 @keyframes dataPulse {

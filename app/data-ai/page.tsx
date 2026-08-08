@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Database, Layers3, ShieldCheck, Sparkles, Workflow } from "lucide-react";
 import { SiteShell } from "../../components/site-shell";
 import { DataAiHeroVisual, DataAiPlatformVisual, DataAiProblemVisual, DataToAiVisual } from "../../components/data-ai-visuals";
+
+export const metadata: Metadata = {
+  title: "Data & AI | Everest Data",
+  description: "Modern data platforms, Databricks, governance, AI engineering, and enterprise data infrastructure for production AI.",
+  alternates: { canonical: "/data-ai" },
+};
 
 const pillars = [
   { icon: Database, title: "Lakehouse architecture", text: "Modern data platforms designed for scale, governance, and AI readiness." },
