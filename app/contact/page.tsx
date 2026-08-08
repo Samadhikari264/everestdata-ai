@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Suspense } from "react";
 import { SiteShell } from "../../components/site-shell";
 import { ContactForm } from "../../components/contact-form";
 
@@ -19,7 +20,9 @@ export default function ContactPage() {
             </div>
 
             <div className="rounded-[32px] border border-[var(--line)] bg-[var(--panel)] p-4 shadow-[var(--shadow-soft)] sm:p-6">
-              <ContactForm />
+              <Suspense fallback={<div className="rounded-[24px] border border-[var(--line)] bg-white p-6 text-sm text-[var(--muted)]">Loading inquiry experience…</div>}>
+                <ContactForm />
+              </Suspense>
             </div>
           </div>
         </div>
